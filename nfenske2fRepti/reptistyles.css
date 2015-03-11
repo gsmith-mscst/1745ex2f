@@ -1,0 +1,155 @@
+﻿/*
+   reptiStyles
+   Author: Nick Fenske
+   Date:   11/3/2014
+*/
+body {
+line-height: 1.5em;
+font-family: 'Palatino Linotype', sans-serif
+}
+
+header {
+text-align: center;
+}
+
+section nav {
+font-size: 0.9em;
+text-align: center;
+}
+
+
+nav ul {
+font-family:'Century Gothic MS', sans-serif;
+list-style-type: none;
+font-weight:bold;
+letter-spacing:3px;
+font-size: 14px;
+line-height:15px;
+}
+
+nav ul li {
+text-align: center;
+line-height: 20px;
+}
+
+nav ul li a {
+color:black;
+text-decoration:none;
+}
+
+nav ul li a:hover {
+color: #3D3D3F;
+}
+
+section p {
+font-size: 1.1em;
+}
+
+section.full h1 {
+text-align: right;
+font-size: 2em;
+letter-spacing: 0.1em;
+}
+
+section.full p {
+font-size: 0.9em;
+}
+
+section.full p strong:first-of-type {
+background-color:hsl(0, 0%, 81%);
+color:rgb(165, 6, 6);
+}
+
+section article:first-letter {
+text-transform:uppercase;
+}
+
+section.full article h1 {
+font-size: 1.1em;
+text-align: left;
+letter-spacing: 0.5em;
+font-weight: normal;
+}
+
+aside {
+background-color:rgb(212, 208, 208);
+background-color:rgba(0, 0, 0, 0.17);
+}
+
+aside h1 {
+font-size: 1.1em;
+font-weight: normal;
+text-align: center;
+line-height: 1.1em;
+}
+
+aside figure figcaption {
+line-height: 1em;
+text-align: center;
+font-style: italic;
+font-size: 0.7em;
+}
+
+aside li {
+font-size: 0.8em;
+line-height: 1.1em;
+list-style: none;
+}
+
+article > ul > li > ul {
+list-style-type:upper-alpha;
+line-height:2em;
+}
+
+article ul {
+list-style-type:decimal;
+}
+
+footer {
+text-align: center;
+}
+
+footer address {
+font-size: 0.8em;
+font-style: normal;
+}
+
+
+/* Block Styles */
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+header h1 {
+font-size: 2em;
+}
+
+h2 {
+font-size: 1.5em;
+}
+
+header h2 {
+font-size: 1.2em;
+font-style: italic;
+}
+
+aside h2 {
+text-align: center;
+}
+
+aside p {
+font-size: 0.8em;
+}
+
+section.full h2 {
+font-size: 1.5em;
+}
+
+
+dl {
+font-size: 0.9em;
+}
+
+dt b {
+font-size: 1.1em;
+}

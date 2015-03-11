@@ -1,0 +1,194 @@
+﻿/*
+   reptiLayout
+   Author: Nick Fenske
+   Date:   11/3/2014
+*/
+
+body {
+margin: 0px auto;
+padding: 0px;
+width: 98%;
+max-width: 780px;
+min-width: 250px;
+}
+
+header {
+width: 100%;
+}
+
+header img {
+border:3px solid #3D3D3F;
+}
+
+nav {
+display: block;
+width: 100%;
+}
+
+section nav {
+padding-bottom: 20px;
+}
+
+
+nav ul {
+margin: 0px;
+padding: 0px;
+}
+
+nav ul li {
+display: block;
+float: left;
+width: 18.6%;
+height: 20px;
+margin: 0px 4px 5px 0px;
+}
+
+section {
+width: 64%;
+float: left;
+}
+
+section.full {
+width: 100%;
+margin:2em 0em;
+}
+
+section p {
+margin: 0px 20px 10px 0px;
+}
+
+section.full p {
+margin: 0px 0px 30px 0px;
+}
+
+section.full article h1 {
+margin: 0px 0px 5px 0px;
+}
+
+section.full article figure {
+display: block;
+width: 100%;
+margin-bottom: 10px;
+}
+
+section.full article figure img {
+display: block;
+margin: 0px auto;
+}
+
+
+aside {
+float: left;
+width: 35%;
+border:3px solid #3D3D3F;
+margin:2em 0em;
+}
+
+aside ul li img {
+border:2px solid rgb(132, 132, 132);
+}
+
+aside h1 {
+margin: 5px 0px;
+}
+
+aside figure {
+display: block;
+width: 90%;
+margin: 0px auto;
+}
+
+aside figure img {
+display: block;
+margin: 0px auto;
+box-shadow:10px 10px 20px #000000;
+-webkit-box-shadow:10px 10px 20px #000000;
+-moz-box-shadow: 10px 10px 20px #000000;
+}
+
+aside figure figcaption {
+display: block;
+width: 100%;
+margin: 10px auto 0px;
+}
+
+footer {
+display: block;
+width: 100%;
+clear: left;
+margin-top: 5px;
+}
+
+footer address {
+display: block;
+width: 100%;
+clear: left;
+margin-top: 20px;
+border-top: 3px solid #3D3D3F;
+}
+
+
+/* Block Styles */
+
+header h1 {
+margin: 1em 0em;
+}
+
+h2 {
+margin: 1em 0em;
+}
+
+header h1 {
+margin: 0px;
+}
+
+header h2 {
+margin: 0em;
+padding-bottom: 0.5em;
+border-bottom:1px black solid;
+}
+
+article p {
+margin: 0.2em 0.9em 0.7em 0em;
+}
+
+article ul {
+margin: 0.1em 0.8em 0.5em;
+}
+
+article ul li {
+margin-right: 0.5em;
+}
+
+aside p {
+margin: 0px 0.7em;
+}
+
+section.full h2 {
+width: 100%;
+margin:50px 0px 0px 0px;
+border-top: 2px solid rgb(172, 172, 172);
+clear: left;
+float: left;
+}
+
+section.full strong:first-of-type {
+padding:10px;
+}
+
+dl {
+margin: 0px;
+margin-left: 60px;
+clear: left;
+float: left;
+}
+
+section.full div {
+clear: left;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+img {
+border-width: 0px;
+}
