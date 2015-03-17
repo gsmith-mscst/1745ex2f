@@ -1,0 +1,152 @@
+﻿/*
+   New Perspectives on HTML
+   Tutorial 2
+   Tutorial Case
+
+   CAMShots Style Sheet
+   Author: Gerry Hayward
+   Date:   3/1/2014
+
+   Filename:         camstyles.css
+   Supporting Files: none
+
+*/
+
+/* Section Styles */
+
+body {
+margin:  0em auto;
+padding:  0em;
+width: 100%;
+max-width: 1200px;
+min-width: 900px;
+}
+
+
+/* Header Layout */
+header {
+width: 100%;
+height: 18em;
+background-image: url('parenting_twins.jpg');
+background-repeat: no-repeat;
+background-position: center bottom;
+background-color: white;
+background-size: 70% 100%;
+}
+
+header h1 {
+margin: 1em  0em;
+}
+
+header h2 {
+margin:  0em;
+padding-bottom: 0.5em;
+border-bottom:.08em black solid;
+}
+
+/* Nav Layout */
+nav {
+display: block;
+float: left;
+width: 100%;
+height: auto;
+}
+
+nav ul {
+display:block;
+float: left;
+width: 100%;
+margin-bottom: 2em;
+}
+
+nav ul li {
+display: block;
+float: left;
+width: 18em;
+border: .08em solid #2d04ff;
+margin:  0em .32em 0em 0em;
+}
+
+/* Section Layout */
+section {
+width: 64%;
+clear: left;
+float: left;
+}
+
+section p {
+margin:  0em 1.6em .08em  0em;
+}
+
+section article p {
+margin: 0.2em 0.9em 0.7em  0em;
+}
+
+section article figure {
+    float: left;
+}
+
+/* Aside Layout */
+
+aside {
+float: left;
+width: 25em;
+
+border-left: .5em solid #2d04ff;
+border-bottom: .5em solid #2d04ff;
+border-radius: 0em 0em 0em 1.5em;
+-moz-border-radius: 0em 0em 0em 1.5em;
+-webkit-border-bottom-left-radius: 1.5em;
+
+-moz-border-style: double;
+-webkit-border-style: double;
+border-style: double;
+}
+
+aside h1 {
+margin: .4em 0em;
+}
+
+aside figure {
+display: block;
+width: 90%;
+margin: 0em auto;
+}
+
+aside figure img {
+display: block;
+margin: 0em auto;
+box-shadow: .8em .8em 1.6em #000000;
+-webkit-box-shadow: .8em .8em 1.6em #000000;
+-moz-box-shadow: .8em .8em 1.6em #000000;
+}
+
+aside figure figcaption {
+display: block;
+width: 100%;
+margin: .8em auto 0em;
+}
+
+aside p {
+    display: block;
+    width: 95%;
+    align-content: center;
+    padding-bottom: .5em;
+    margin: 0em 0.7em;
+}
+
+/* Footer Layout */
+footer {
+display: block;
+width: 100%;
+clear: left;
+margin-top: .4em;
+}
+
+footer address {
+display: block;
+width: 100%;
+clear: left;
+margin-top: 1.6em;
+border-top: .24em solid #2d04ff;
+}

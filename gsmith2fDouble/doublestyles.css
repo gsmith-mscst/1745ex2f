@@ -1,0 +1,114 @@
+﻿/*
+   New Perspectives on HTML
+   Tutorial 2
+   Tutorial Case
+
+   CAMShots Style Sheet
+   Author: Gerry Hayward
+   Date:   3/1/2014
+
+   Filename:         camstyles.css
+   Supporting Files: none
+
+*/
+
+/* Section Styles */
+
+
+
+/* Header Styles */
+header {
+text-align: left;
+}
+
+header h1 {
+font-size: 2em;
+}
+
+header h2 {
+font-size: 1.2em;
+font-style: italic;
+}
+
+/* Nav Styles */
+nav ul {
+list-style-type: none;
+font-size: 0.8em;
+}
+
+nav ul>li {
+text-align: center;
+background-color: rgb(0, 148, 255);
+background-color: rgba(0, 148, 255, .8);
+line-height: 1.5em;
+font-style: italic;
+font-weight: 600;
+color: black;
+}
+
+nav ul li:hover {
+background-color: white;
+color: rgb(0, 148, 255);
+color: rgba(0, 148, 255, .8);
+}
+
+/* Section Styles */
+section h1 {
+    font-size: 1.5em;
+    font-weight: 700;
+
+}
+
+section p {
+font-size: 1.1em;
+}
+
+section p::first-letter {
+font-weight:700;
+color: rgb(0, 148, 255);
+color: rgba(0, 148, 255, .8);
+font-size: larger;
+}
+
+/* Aside Styles */
+
+aside {
+background-color: rgb(0, 148, 255);
+background-color: rgba(0, 148, 255, .8); 
+}
+
+aside h1 {
+font-size: 1.1em;
+font-weight: normal;
+text-align: center;
+line-height: 1.1em;
+font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+aside h2 {
+text-align: center;
+}
+
+aside p {
+font-size: 0.8em;
+}
+
+aside figure figcaption {
+line-height: 1em;
+text-align: center;
+font-style: italic;
+font-size: 0.7em;
+}
+
+
+/* Footer Styles */
+footer {
+text-align: center;
+}
+
+footer address {
+font-size: 0.8em;
+font-style: normal;
+font-variant: small-caps;
+}
+

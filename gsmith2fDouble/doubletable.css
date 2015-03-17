@@ -1,0 +1,78 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 4
+   Tutorial Case
+
+   Cycle Pathology Styles to Reset Style Defaults
+   Author: 
+   Date:   
+
+   Filename:         cp_reset.css
+   Supporting Files: none
+
+*/
+
+/* Display styles for Table */
+
+table.calendar {
+    clear:left;
+    float: left;
+    width: 100%;
+    border: .08em solid black;
+}
+
+table.calendar caption {
+    font-size: 2em;
+    background-color: darkblue;
+    color: white;
+    border: .08em solid black;
+    margin-top: 2em;
+}
+
+table.calendar thead {
+    width: 100%;
+}
+
+table.calendar thead tr {
+    font-size: 1.4em;
+    font-weight: 400;
+}
+
+table.calendar thead tr th {
+    border: .04em solid black;
+    border-collapse: separate;
+    color: rgb(0, 148, 255);
+    color: rgba(0, 148, 255, .8);
+}
+
+table.calendar tbody tr td {
+    border: .04em solid black;
+    border-collapse: separate;
+    color: rgb(0, 148, 255);
+    color: rgba(0, 148, 255, .8);
+    font-size: 1.4em;
+    font-weight: 700;
+
+    width: 14%;
+    height: 5em;
+}
+
+table.calendar tbody tr td p {
+    color: black;
+    font-size: .8em;
+    font-weight: 500;
+
+    text-align: center;
+    vertical-align: middle;
+}
+
+table.calendar tbody tr:nth-of-type(5) td:nth-of-type(1n+4) {
+    background-color: gray;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table.calendar colgroup col.Weekend {
+    background-color: rgb(206, 206, 206);
+}
